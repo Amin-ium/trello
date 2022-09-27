@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'bootstrap-icons';
+    src: url("../fonts/bootstrap-icons.woff");
+}
+@font-face {
+    font-family: 'Charlie';
+    src: url('../fonts/CharlieDisplay-Regular.ttf');
+}
+*{
+    font-family: 'Charlie', sans-serif;
+    letter-spacing: 0.05em;
+}
+.container-fluid {
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+.containerr{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.section1{
+    background: rgb(244,242,255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(234, 230, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.navbar-brand img{
+    width: 120px; 
+}
+.nav-item{
+    font-size: 1.09em;
+}
+.section-header{
+    margin-top: 70px;
+}
+
+.present{
+    margin: 100px 0 0 100px;
+}
+.present h1{
+    font-size: 3em;
+}
+.present p{
+    font-size: 1.23em;
+}
+form{
+    margin-left: 100px;
+}
+.imgf{
+    filter: invert(16%) sepia(11%) saturate(3708%) hue-rotate(180deg) brightness(86%) contrast(95%);
+}
+
+
+/* End Header Css */
+.section2, .section3, .section4, .section5, .section7, .section6, .section8{
+    margin: 100px 0 0 0;
+}
+.collapse-link::before {
+    padding-right: 10px;
+    content: "+";
+    float: left;
+    font-weight: bold;
+}
+.collapse-link:focus:before {
+    content: "-";
+}
+.section4 img{
+    width: 100%;
+}
+.section5 img{
+    width: 100%;
+}
+
+.section6 img{
+    width: 100%;
+}
+.section8 img{
+    width: 100%;
+}
+.inscription{
+    background-image: url('../images/capture.jpg');
+}
+footer img{
+    width: 20%;
+    
+}
+.section8{
+    background-color: #E6FCFF;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
